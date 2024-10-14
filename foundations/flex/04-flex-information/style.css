@@ -5,6 +5,11 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: inline;
+}
+.text{
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .title {
@@ -23,4 +28,26 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.information{
+  display: flex;
+  justify-content: center;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+  margin: 32px;
+  gap: 52px;
+}
+.first,
+.second,
+.third,
+.fourth{
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  width: 200px;
+  align-items: center;
+
 }
